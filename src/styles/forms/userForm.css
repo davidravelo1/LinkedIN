@@ -1,0 +1,33 @@
+
+
+.userForm {
+    margin: 0 auto;
+    padding: 2rem 4rem;
+}
+
+.userForm--border {
+    border: 1px solid var(--neutral);
+}
+
+.submit-button {
+    border: none;
+    display: block;
+    background-color: var(--secondary_color);
+    color: var(--primary_color);
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-button--active:hover{
+    background-color: var(--darken_secondary);
+    transition: background-color .3s;
+}
+
+.submit-button--disabled {
+    cursor: not-allowed;
+    opacity: 0.4;
+}
+

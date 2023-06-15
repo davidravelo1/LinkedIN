@@ -1,0 +1,11 @@
+.newUser__content {
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+  
+  .newUser h2 {
+    color: var(--secondary_color);
+    font-size: 2.9rem;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
